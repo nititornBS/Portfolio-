@@ -1,14 +1,12 @@
 import React from "react";
 import Image from "next/image";
+import Navbar from "../../components/Navbar"
 
 export default function Home() {
   return (
     <div>
-      <head>
-        <title>Clint | Front-End Developer</title>
-        
-      </head>
-      {/* <Navber> */}
+      
+      <Navbar />
     </div>
   )
 }
